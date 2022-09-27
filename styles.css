@@ -1,0 +1,31 @@
+h1{color:deeppink;
+background-color:blanchedalmond;
+font-weight: 800;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border-width: 20px;
+border-style: solid;
+border-color:rgb(253, 107, 185);
+padding: 18px 18px 18px 18px;
+margin: 0 0 0 10px ;
+}
+
+p{
+    border: 7px solid rgb(252, 129, 213);
+    padding: 20px 20px 20px 20px;
+    margin: 15px 10px 15px 10px;
+    color:deeppink;
+    background-color: blanchedalmond;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul{
+    color:violet;
+}
+h2{
+    color:rgb(111, 59, 87);
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{color:rgb(111, 59, 87);
+}
