@@ -10,7 +10,6 @@ margin: 0 0 0 10px ;
 }
 
 p{
-    border: 7px solid rgb(252, 129, 213);
     padding: 20px 20px 20px 20px;
     margin: 15px 10px 15px 10px;
     color:deeppink;
@@ -30,14 +29,14 @@ h2{
 h3{color:rgb(111, 59, 87);
 }
 
-.getting-around {
+.h2look {
     border: 7px solid lavenderblush;
     padding: 20px 20px 20px 20px;
     margin: 40px 10px 40px 10px;
 }
 
 .intro {
-    border: 25px solid burlywood;
+    border: 25px solid rgb(237, 209, 227);
     padding: 20px 20px 20px 20px;
     margin: 40px 10px 40px 10px;
 }
