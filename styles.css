@@ -65,7 +65,7 @@ nav ul li a {
   display: block;
   padding: 0.75em;
   margin: 0.25em;  
-  background-color: maroon;
+  background-color: rgb(75, 97, 139);
   color: white;  
   text-align: center;
   text-decoration: none;  
@@ -73,6 +73,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #900;
+  background-color: rgb(198, 125, 188);
   box-shadow: inset 3px 3px 10px #300;  
 }
+
+@media screen and (max-width: 650px) {
+  nav ul {
+      flex-direction: column;
+      padding: 0 20px;
+      }
+  nav ul li {
+    margin:10px 0;
+    }
+}
+
