@@ -1,10 +1,10 @@
-h1{color:deeppink;
-background-color:blanchedalmond;
+h1{color:#433E3F;
+background-color: #C69C72;
 font-weight: 800;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-border-width: 20px;
+border-width: 15px;
 border-style: solid;
-border-color:rgb(253, 107, 185);
+border-color:#433E3F;
 padding: 18px 18px 18px 18px;
 margin: 0 0 0 10px ;
 }
@@ -12,31 +12,31 @@ margin: 0 0 0 10px ;
 p{
     padding: 20px 20px 20px 20px;
     margin: 15px 10px 15px 10px;
-    color:deeppink;
-    background-color: blanchedalmond;
+    color:#433E3F;
+    background-color: #C0B7B1;
     font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul{
-    color:violet;
+    color:#7A7265;
 }
 h2{
-    color:rgb(111, 59, 87);
+    color:#8E6E53;
     font-style: oblique;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-h3{color:rgb(111, 59, 87);
+h3{color:#433E3F;
 }
 
 .h2look {
-    border: 7px solid lavenderblush;
+    border: 7px solid #7A7265;
     padding: 20px 20px 20px 20px;
     margin: 40px 10px 40px 10px;
 }
 
 .intro {
-    border: 25px solid rgb(237, 209, 227);
+    border: 25px solid #433E3F;
     padding: 20px 20px 20px 20px;
     margin: 40px 10px 40px 10px;
 }
@@ -65,7 +65,7 @@ nav ul li a {
   display: block;
   padding: 0.75em;
   margin: 0.25em;  
-  background-color: rgb(75, 97, 139);
+  background-color: #433E3F;
   color: white;  
   text-align: center;
   text-decoration: none;  
@@ -73,8 +73,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: rgb(198, 125, 188);
-  box-shadow: inset 3px 3px 10px #300;  
+  background-color: #7A7265;
+  box-shadow: inset 3px 3px 10px rgb(140, 138, 138);  
 }
 
 @media screen and (max-width: 650px) {
