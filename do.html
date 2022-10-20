@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>   
+<head> 
+     <span class="open-button" onclick="openNav()"> &#9776; Inside Buffalo</span>  
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Mono+One&display=swap" rel="stylesheet">
@@ -13,7 +14,8 @@
 <link rel="stylesheet" href="styles.css"> 
 </head>
 
-<body>
+<body id="backcolor">
+
 <main class="container">
     <nav>
         <ul>
@@ -55,7 +57,7 @@ pay any more than $30 - $35 for a 2-3 hour tour.</p>
 
 <div class="h2look">
 <h2> Entertainment</h2>
-<iframe title="A Taste Of New York City" width="1200" height="674" src="https://www.youtube.com/embed/MRAZ_mSLXrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  width="1200" height="674" src="https://www.youtube.com/embed/MRAZ_mSLXrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h3> Theater and Performing Arts</h3>
 
@@ -191,6 +193,15 @@ and is broadcast on nationwide television.<img src="images/macysparade.jpg" alt=
 </div>
 
 </main>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
 </body>
 
 </html>

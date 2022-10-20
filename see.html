@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head> 
+     <span class="open-button" onclick="openNav()"> &#9776; Inside Buffalo</span>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Mono+One&display=swap" rel="stylesheet">
@@ -16,7 +17,7 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body id="backcolor">
 <main class="container">
  <nav>
         <ul>
@@ -97,6 +98,15 @@ Though the image many people have of Manhattan is endless skyscrapers and packed
 <p>Source: WikiTravel New York City </p>
 </div>
 </main>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
 </body>
 
 </html>

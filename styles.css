@@ -23,7 +23,6 @@ ul{
 }
 h2{
     color:#8E6E53;
-    font-style: oblique;
    font-family: 'Open Sans', sans-serif;
     
 }
@@ -88,6 +87,56 @@ nav ul li a:hover {
     margin:10px 0;
     }
 }
+#backcolor {
+  background-color: #f0ece7 ;
+}
+span.open-button {
+  padding:10px 20px;
+  font-size:24px;  /* This controls the size of the button text */
+  cursor: pointer; /* This provides feedback that an interaction can take place with this button */
+  }
 
+span.open-button:hover {  
+  color:gold;
+  }  /* :hover allows you to change the color of a link when you hover over it */
+
+.sidenav {
+  position: fixed; /* this fixes your nav's position- see top and left */ 
+  z-index: 1;
+  top: 0; /* It starts height/width from the top left corner of the screen */ 
+  left: 0;
+  height: 100%; /* forces the nav to go the full height of your screen */ 
+  width: 0; /* the default width is 0 -- hidden, the JS changes it to 250px */
+  background-color: #111; /* feel free to use any color for your nav, just make sure the your links are readable on this background (high contrast) */ 
+  overflow-x: hidden;
+  transition: 0.5s; /* speed in seconds for the opening animation */
+  padding-top: 50px; 
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 0px;
+  text-decoration: none;
+  font-size: 24px;  /* size of your navigation links */
+  color: #eee;
+  display: block;
+  transition: 0.3s; /* you'll see the links slide in and out as well */
+}
+
+.sidenav a:hover {
+  text-decoration: underline;  /* adds link underlines on cursor hover */
+}
+
+.sidenav .closebtn {
+  position: absolute;  /* this positions the closing X button */
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {  /* mobile screen adjustments */   
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 
