@@ -149,6 +149,7 @@ span.open-button:hover {
   border: none;
   outline: none;
   transition: 0.4s;
+  
 }
 
 .active, .accordion:hover {
