@@ -53,7 +53,7 @@ img {
 }
 nav ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 0px;
 }
 
@@ -152,6 +152,18 @@ span.open-button:hover {
   
 }
 
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
 .active, .accordion:hover {
   background-color: #ccc;
 }
@@ -162,3 +174,5 @@ span.open-button:hover {
   display: none;
   overflow: hidden;
 }
+
+#mysidenav ul {flex-direction: column;}
