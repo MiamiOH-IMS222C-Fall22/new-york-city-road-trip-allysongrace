@@ -1,0 +1,178 @@
+h1{color:#433E3F;
+background-color: #C69C72;
+font-weight: 800;
+font-family: 'Rubik Mono One', sans-serif;
+border-width: 15px;
+border-style: solid;
+border-color:#433E3F;
+padding: 18px 18px 18px 18px;
+margin: 0 0 0 10px ;
+}
+
+p{
+    padding: 20px 20px 20px 20px;
+    margin: 15px 10px 15px 10px;
+    color:#433E3F;
+    background-color: #C0B7B1;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul{
+    color:#7A7265;
+}
+h2{
+    color:#8E6E53;
+   font-family: 'Open Sans', sans-serif;
+    
+}
+h3{color:#433E3F;
+font-family: 'Open Sans', sans-serif;
+}
+
+.h2look {
+    border: 15px solid #7A7265;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 10px 20px 10px;
+}
+
+.intro {
+    border: 25px solid #433E3F;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 10px 20px 10px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 1em auto 1em auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+
+nav ul li {
+  flex:1;
+  list-style-type: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.75em;
+  margin: 0.25em;  
+  background-color: #433E3F;
+  color: white;  
+  text-align: center;
+  text-decoration: none;  
+  border-radius: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #7A7265;
+  box-shadow: inset 3px 3px 10px rgb(140, 138, 138);  
+}
+
+@media screen and (max-width: 650px) {
+  nav ul {
+      flex-direction: column;
+      padding: 0 20px;
+      }
+  nav ul li {
+    margin:10px 0;
+    }
+}
+#backcolor {
+  background-color: #f0ece7 ;
+}
+span.open-button {
+  padding:10px 20px;
+  font-size:24px;  /* This controls the size of the button text */
+  cursor: pointer; /* This provides feedback that an interaction can take place with this button */
+  }
+
+span.open-button:hover {  
+  color:gold;
+  }  /* :hover allows you to change the color of a link when you hover over it */
+
+.sidenav {
+  position: fixed; /* this fixes your nav's position- see top and left */ 
+  z-index: 1;
+  top: 0; /* It starts height/width from the top left corner of the screen */ 
+  left: 0;
+  height: 100%; /* forces the nav to go the full height of your screen */ 
+  width: 0; /* the default width is 0 -- hidden, the JS changes it to 250px */
+  background-color: #111; /* feel free to use any color for your nav, just make sure the your links are readable on this background (high contrast) */ 
+  overflow-x: hidden;
+  transition: 0.5s; /* speed in seconds for the opening animation */
+  padding-top: 50px; 
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 0px;
+  text-decoration: none;
+  font-size: 24px;  /* size of your navigation links */
+  color: #eee;
+  display: block;
+  transition: 0.3s; /* you'll see the links slide in and out as well */
+}
+
+.sidenav a:hover {
+  text-decoration: underline;  /* adds link underlines on cursor hover */
+}
+
+.sidenav .closebtn {
+  position: absolute;  /* this positions the closing X button */
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {  /* mobile screen adjustments */   
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+#mysidenav ul {flex-direction: column;}
